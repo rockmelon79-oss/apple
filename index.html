@@ -3,54 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roblox Profile Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Roblox Profile - Username</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .header { text-align: center; }
+        .avatar { width: 150px; height: 150px; border-radius: 50%; }
+        .stats { display: flex; justify-content: space-around; }
+        .section { margin: 20px 0; padding: 10px; background-color: white; border-radius: 5px; }
+    </style>
 </head>
 <body>
-    <div class="profile-header">
-        <img src="IMG_7107.jpeg" alt="Avatar" class="avatar">
-        <h1 class="username">rockmelon79-oss</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Username</h1>
+            <img src="IMG_7107.jpeg" alt="Avatar" class="avatar">
+        </div>
         <div class="stats">
-            <span>Friends: 100</span>
-            <span>Followers: 200</span>
-            <span>Following: 50</span>
+            <div>
+                <h3>Friends</h3>
+                <p>123</p>
+            </div>
+            <div>
+                <h3>Followers</h3>
+                <p>456</p>
+            </div>
         </div>
-        <div class="action-buttons">
-            <button>Add Friend</button>
-            <button>Message</button>
-            <button>Follow</button>
+        <div class="section">
+            <h2>About</h2>
+            <p>This is a brief about section.</p>
         </div>
-    </div>
-    
-    <div class="tabs">
-        <button>About</button>
-        <button>Creations</button>
-        <button>Inventory</button>
-    </div>
-    
-    <div class="sidebar">
-        <h2>Account Info</h2>
-        <p>Real Name: John Doe</p>
-        <p>Join Date: 2020-01-01</p>
-        
-        <h2>Badges</h2>
-        <ul>
-            <li>Badge 1</li>
-            <li>Badge 2</li>
-            <li>Badge 3</li>
-        </ul>
-        
-        <h2>Groups</h2>
-        <ul>
-            <li>Group A</li>
-            <li>Group B</li>
-        </ul>
-        
-        <h2>Social Links</h2>
-        <ul>
-            <li><a href="https://twitter.com/rockmelon79">Twitter</a></li>
-            <li><a href="https://github.com/rockmelon79-oss">GitHub</a></li>
-        </ul>
+        <div class="section">
+            <h2>Badges</h2>
+            <p>Badge information goes here.</p>
+        </div>
+        <div class="section">
+            <h2>Inventory</h2>
+            <p>Inventory items listed here.</p>
+        </div>
+        <div class="section">
+            <h2>Creations</h2>
+            <p>List of user creations will appear here.</p>
+        </div>
     </div>
 </body>
 </html>
